@@ -3662,3 +3662,1341 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (
         40088, -- Vivid Forest Emerald
         40156, -- Wicked Ametrine
         40052); -- Wicked Monarch Topaz
+
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (
+    -- trash for ICC 25, Naxx 10+25, Uld 10+25
+        50451, -- Belt of the Lonely Noble
+        50447, -- Harbinger's Bone Band
+        50450, -- Leggings of Dubious Charms
+        50453, -- Ring of Rotting Sinew
+        50444, -- Rowan's Rifle of Silver Bullets
+        50449, -- Stiffened Corpse Shoulderpads
+        50452, -- Wodin's Lucky Necklace
+        39473, -- Contortion
+        39427, -- Omen of Ruin
+        39468, -- The Stray
+        39467, -- Minion Bracers
+        39472, -- Chain of Latent Energies
+        39470, -- Medallion of the Disgraced
+        40407, -- Silent Crusader
+        40406, -- Inevitable Defeat
+        40408, -- Haunting Call
+        40409, -- Boots of the Escaped Captive
+        40414, -- Shoulderguards of the Undaunted
+        40410, -- Shadow of the Ghoul
+        40412, -- Ousted Bead Necklace
+        46351, -- Bloodcrush Cudgel
+        46342, -- Golemheart Longbow
+        46339, -- Mimiron's Repeater
+        46350, -- Pillar of Fortitude
+        46344, -- Iceshear Mantle
+        46346, -- Boots of Unsettled Prey
+        46340, -- Adamant Handguards
+        46345, -- Bracers of Righteous Reformation
+        46347, -- Cloak of the Dormant Blaze
+        46341, -- Drape of the Spellweaver
+        46343, -- Fervor of the Protectorate
+        45605, -- Daschal's Bite
+        45549, -- Grips of Chaos
+        45548, -- Belt of the Sleeper
+        45547, -- Relic Hunter's Cord
+        45544, -- Leggings of the Tortured Earth
+        45543, -- Shoulders of Misfortune
+        45542, -- Greaves of the Stonewarder
+        45541, -- Shroud of Alteration
+        45540, -- Bladebearer's Signet
+        45539, -- Pendant of Focused Energies
+        45538, -- Titanstone Pendant
+    -- items made with or bought by:
+    -- Shadowfrost Shard, Fragment of Val'anyr, Runed Orb, Primodial Saronite, Crusader Orb
+        49623, -- Shadowmourne
+        46017, -- Val'anyr, Hammer of Ancient Kings
+        63188, -- Battlelord's Plate Boots
+        63200, -- Belt of Arctic Life
+        63194, -- Belt of Dragons
+        63187, -- Belt of the Titans
+        63196, -- Blue Belt of Chaos
+        63195, -- Boots of Living Scale
+        63201, -- Boots of Wintry Endurance
+        63205, -- Cord of the White Dawn
+        63198, -- Death-warmed Belt
+        63199, -- Footpads of Silence
+        63191, -- Indestructible Plate Girdle
+        63197, -- Lightning Grounded Boots
+        63189, -- Plate Girdle of Righteousness
+        63203, -- Sash of Ancient Power
+        63206, -- Savior's Slippers
+        63204, -- Spellslinger's Slippers
+        63192, -- Spiked Deathdealers
+        63190, -- Treads of Destiny
+        49959, -- Pattern: Bladeborn Leggings
+        49958, -- Pattern: Blessed Cenarion Boots
+        49954, -- Pattern: Deathfrost Boots
+        49965, -- Pattern: Draconic Bonesplinter Legguards
+        49963, -- Pattern: Earthsoul Boots
+        49961, -- Pattern: Footpads of Impending Death
+        49953, -- Pattern: Leggings of Woven Death
+        49957, -- Pattern: Legwraps of Unleashed Nature
+        49962, -- Pattern: Lightning-Infused Leggings
+        49955, -- Pattern: Lightweave Leggings
+        49966, -- Pattern: Rock-Steady Treads
+        49956, -- Pattern: Sandals of Consecration
+        49974, -- Plans: Boots of Kingly Upheaval
+        49972, -- Plans: Hellfrozen Bonegrinders
+        49971, -- Plans: Legplates of Painful Death
+        49973, -- Plans: Pillars of Might
+        49970, -- Plans: Protectors of Life
+        49969, -- Plans: Puresteel Legplates
+        70556, -- Bladeborn Leggings
+        70555, -- Blessed Cenarion Boots
+        70568, -- Boots of Kingly Upheaval
+        70551, -- Deathfrost Boots
+        70560, -- Draconic Bonesplinter Legguards
+        70559, -- Earthsoul Boots
+        70557, -- Footpads of Impending Death
+        70566, -- Hellfrozen Bonegrinders
+        70550, -- Leggings of Woven Death
+        70565, -- Legplates of Painful Death
+        70554, -- Legwraps of Unleashed Nature
+        70558, -- Lightning-Infused Leggings
+        70552, -- Lightweave Leggings
+        70567, -- Pillars of Might
+        70563, -- Protectors of Life
+        70562, -- Puresteel Legplates
+        70561, -- Rock-Steady Treads
+        70553, -- Sandals of Consecration
+        49623, -- Shadowmourne
+        67079, -- Bejeweled Wizard's Bracers
+        67145, -- Bejeweled Wizard's Bracers
+        67081, -- Black Chitin Bracers
+        67137, -- Black Chitin Bracers
+        67087, -- Bracers of Swift Death
+        67139, -- Bracers of Swift Death
+        67091, -- Breastplate of the White Knight
+        67130, -- Breastplate of the White Knight
+        67083, -- Crusader's Dragonscale Bracers
+        67143, -- Crusader's Dragonscale Bracers
+        67082, -- Crusader's Dragonscale Breastplate
+        67138, -- Crusader's Dragonscale Breastplate
+        67080, -- Ensorcelled Nerubian Breastplate
+        67136, -- Ensorcelled Nerubian Breastplate
+        67086, -- Knightbane Carapace
+        67142, -- Knightbane Carapace
+        67084, -- Lunar Eclipse Robes
+        67140, -- Lunar Eclipse Robes
+        67066, -- Merlin's Robe
+        67146, -- Merlin's Robe
+        67085, -- Moonshadow Armguards
+        67141, -- Moonshadow Armguards
+        67065, -- Royal Moonshroud Bracers
+        67147, -- Royal Moonshroud Bracers
+        67064, -- Royal Moonshroud Robe
+        67144, -- Royal Moonshroud Robe
+        67092, -- Saronite Swordbreakers
+        67131, -- Saronite Swordbreakers
+        67096, -- Sunforged Bracers
+        67135, -- Sunforged Bracers
+        67095, -- Sunforged Breastplate
+        67134, -- Sunforged Breastplate
+        67093, -- Titanium Razorplate
+        67132, -- Titanium Razorplate
+        67094, -- Titanium Spikeguards
+        67133 -- Titanium Spikeguards
+);
+
+-- Trial of the Crusader has different items for Horde and Alliance
+-- HORDE
+UPDATE `items` SET `faction` = 'h' WHERE `item_id` IN (
+    47853, -- Acidmaw Treads
+    47859, -- Belt of the Impaler
+    47850, -- Bracers of the Northern Stalker
+    47849, -- Collar of Unending Torment
+    47852, -- Dreadscale Bracers
+    47851, -- Gauntlets of Mounting Anger
+    47858, -- Girdle of the Frozen Reach
+    47854, -- Gormok's Band
+    47855, -- Icehowl Binding
+    47857, -- Pauldrons of the Glacial Wilds
+    47860, -- Pauldrons of the Spirit Walker
+    47856, -- Scepter of Imprisoned Souls
+    47992, -- Acidmaw Treads
+    47998, -- Belt of the Impaler
+    47989, -- Bracers of the Northern Stalker
+    47988, -- Collar of Unending Torment
+    47991, -- Dreadscale Bracers
+    47990, -- Gauntlets of Mounting Anger
+    47997, -- Girdle of the Frozen Reach
+    47993, -- Gormok's Band
+    47994, -- Icehowl Binding
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47996, -- Pauldrons of the Glacial Wilds
+    47999, -- Pauldrons of the Spirit Walker
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47995, -- Scepter of Imprisoned Souls
+    47261, -- Barb of Tarasque
+    47258, -- Belt of the Tenebrous Mist
+    47265, -- Binding of the Ice Burrower
+    47253, -- Boneshatter Vambraces
+    47262, -- Boots of the Harsh Winter
+    47257, -- Cloak of the Untamed Predator
+    47251, -- Cuirass of Cruel Intent
+    47256, -- Drape of the Refreshing Winds
+    47264, -- Flowing Robes of Ascent
+    47260, -- Forlorn Barrier
+    47254, -- Hauberk of the Towering Monstrosity
+    47259, -- Legwraps of the Broken Beast
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47252, -- Ring of the Violent Temperament
+    47263, -- Sabatons of the Courageous
+    47255, -- Stygian Bladebreaker
+    47422, -- Barb of Tarasque
+    47419, -- Belt of the Tenebrous Mist
+    47426, -- Binding of the Ice Burrower
+    47414, -- Boneshatter Vambraces
+    47423, -- Boots of the Harsh Winter
+    47418, -- Cloak of the Untamed Predator
+    47412, -- Cuirass of Cruel Intent
+    47417, -- Drape of the Refreshing Winds
+    47425, -- Flowing Robes of Ascent
+    47421, -- Forlorn Barrier
+    47415, -- Hauberk of the Towering Monstrosity
+    47420, -- Legwraps of the Broken Beast
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47413, -- Ring of the Violent Temperament
+    47424, -- Sabatons of the Courageous
+    47416, -- Stygian Bladebreaker
+    47869, -- Armplates of the Nether Lord
+    47863, -- Belt of the Bloodhoof Emissary
+    47870, -- Belt of the Nether Champion
+    47866, -- Darkspear Ritual Binding
+    47861, -- Felspark Bracers
+    47862, -- Firestorm Band
+    47872, -- Fortitude of the Infernal
+    47865, -- Legwraps of the Demonic Messenger
+    47871, -- Orcish Deathblade
+    47864, -- Pendant of Binding Elements
+    47868, -- Planestalker Band
+    49236, -- Sabatons of Tortured Space
+    47867, -- Warsong Poacher's Greaves
+    48008, -- Armplates of the Nether Lord
+    48002, -- Belt of the Bloodhoof Emissary
+    48009, -- Belt of the Nether Champion
+    48005, -- Darkspear Ritual Binding
+    48000, -- Felspark Bracers
+    48001, -- Firestorm Band
+    48011, -- Fortitude of the Infernal
+    48004, -- Legwraps of the Demonic Messenger
+    48010, -- Orcish Deathblade
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    48003, -- Pendant of Binding Elements
+    48007, -- Planestalker Band
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    49237, -- Sabatons of Tortured Space
+    48006, -- Warsong Poacher's Greaves
+    47277, -- Bindings of the Autumn Willow
+    47266, -- Blood Fury
+    47268, -- Bloodbath Girdle
+    47272, -- Charge of the Eredar
+    47278, -- Circle of the Darkmender
+    47269, -- Dawnbreaker Sabatons
+    47267, -- Death's Head Crossbow
+    47279, -- Leggings of Failing Light
+    47273, -- Legplates of Feverish Dedication
+    47274, -- Pants of the Soothing Touch
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47275, -- Pride of the Demon Lord
+    47271, -- Solace of the Fallen
+    47276, -- Talisman of Heedless Sins
+    47270, -- Vest of Calamitous Fate
+    47280, -- Wristwraps of Cloudy Omen
+    47438, -- Bindings of the Autumn Willow
+    47427, -- Blood Fury
+    47429, -- Bloodbath Girdle
+    47433, -- Charge of the Eredar
+    47439, -- Circle of the Darkmender
+    47430, -- Dawnbreaker Sabatons
+    47428, -- Death's Head Crossbow
+    47440, -- Leggings of Failing Light
+    47434, -- Legplates of Feverish Dedication
+    47435, -- Pants of the Soothing Touch
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47436, -- Pride of the Demon Lord
+    47432, -- Solace of the Fallen
+    47437, -- Talisman of Heedless Sins
+    47431, -- Vest of Calamitous Fate
+    47441, -- Wristwraps of Cloudy Omen
+    47880, -- Binding Stone
+    47882, -- Eitrigg's Oath
+    47879, -- Fetish of Volatile Power
+    47878, -- Sunreaver Assassin's Gloves
+    47876, -- Sunreaver Champion's Faceplate
+    47877, -- Sunreaver Defender's Pauldrons
+    47874, -- Sunreaver Disciple's Blade
+    47873, -- Sunreaver Magus' Sandals
+    47875, -- Sunreaver Ranger's Helm
+    47881, -- Vengeance of the Forsaken
+    48019, -- Binding Stone
+    48021, -- Eitrigg's Oath
+    48018, -- Fetish of Volatile Power
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641  -- Plans: Saronite Swordbreakers
+);
+-- Trial of the Crusader has different items for Horde and Alliance
+-- HORDE
+UPDATE `items` SET `faction` = 'h' WHERE `item_id` IN (
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    48017, -- Sunreaver Assassin's Gloves
+    48015, -- Sunreaver Champion's Faceplate
+    48016, -- Sunreaver Defender's Pauldrons
+    48013, -- Sunreaver Disciple's Blade
+    48012, -- Sunreaver Magus' Sandals
+    48014, -- Sunreaver Ranger's Helm
+    48020, -- Vengeance of the Forsaken
+    47282, -- Band of Callous Aggression
+    47287, -- Bastion of Resolve
+    47286, -- Belt of Biting Cold
+    47283, -- Belt of Bloodied Scars
+    47294, -- Bracers of the Broken Bond
+    47281, -- Bracers of the Silent Massacre
+    47288, -- Chestplate of the Frostwolf Hero
+    47285, -- Dual-Blade Butcher
+    47284, -- Icewalker Treads
+    47290, -- Juggernaut's Vitality
+    47289, -- Leggings of Concealed Hatred
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47292, -- Robes of the Shattered Fellowship
+    47295, -- Sabatons of Tremoring Earth
+    47293, -- Sandals of the Mourning Widow
+    47291, -- Shroud of Displacement
+    47443, -- Band of Callous Aggression
+    47448, -- Bastion of Resolve
+    47447, -- Belt of Biting Cold
+    47444, -- Belt of Bloodied Scars
+    47455, -- Bracers of the Broken Bond
+    47442, -- Bracers of the Silent Massacre
+    47449, -- Chestplate of the Frostwolf Hero
+    47446, -- Dual-Blade Butcher
+    47445, -- Icewalker Treads
+    47451, -- Juggernaut's Vitality
+    47450, -- Leggings of Concealed Hatred
+    47453, -- Robes of the Shattered Fellowship
+    47456, -- Sabatons of Tremoring Earth
+    47454, -- Sandals of the Mourning Widow
+    47452, -- Shroud of Displacement
+    47888, -- Band of the Twin Val'kyr
+    47890, -- Darkbane Amulet
+    47884, -- Edge of Agony
+    47885, -- Greaves of the Lingering Vortex
+    47891, -- Helm of the High Mesa
+    47892, -- Illumination
+    47913, -- Lightbane Focus
+    47889, -- Looming Shadow Wraps
+    47886, -- Nemesis Blade
+    49232, -- Sandals of the Grieving Soul
+    47893, -- Sen'jin Ritualist Gloves
+    47887, -- Vest of Shifting Shadows
+    47883, -- Widebarrel Flintlock
+    48027, -- Band of the Twin Val'kyr
+    48030, -- Darkbane Amulet
+    48023, -- Edge of Agony
+    48024, -- Greaves of the Lingering Vortex
+    48034, -- Helm of the High Mesa
+    48036, -- Illumination
+    48032, -- Lightbane Focus
+    48028, -- Looming Shadow Wraps
+    48025, -- Nemesis Blade
+    49233, -- Sandals of the Grieving Soul
+    48038, -- Sen'jin Ritualist Gloves
+    48026, -- Vest of Shifting Shadows
+    48022, -- Widebarrel Flintlock
+    47298, -- Armguards of the Shieldmaiden
+    47308, -- Belt of Pale Thorns
+    47299, -- Belt of the Pitiless Killer
+    47310, -- Chestplate of the Frozen Lake
+    47307, -- Cry of the Val'kyr
+    47306, -- Dark Essence Bindings
+    47303, -- Death's Choice
+    47300, -- Gouge of the Frigid Heart
+    47296, -- Greaves of Ruthless Judgment
+    47305, -- Legionnaire's Gorget
+    47304, -- Legplates of Ascension
+    47309, -- Mystifying Charm
+    47301, -- Skyweaver Vestments
+    47297, -- The Executioner's Vice
+    47302, -- Twin's Pact
+    47459, -- Armguards of the Shieldmaiden
+    47469, -- Belt of Pale Thorns
+    47460, -- Belt of the Pitiless Killer
+    47471, -- Chestplate of the Frozen Lake
+    47468, -- Cry of the Val'kyr
+    47467, -- Dark Essence Bindings
+    47464, -- Death's Choice
+    47461, -- Gouge of the Frigid Heart
+    47457, -- Greaves of Ruthless Judgment
+    47466, -- Legionnaire's Gorget
+    47465, -- Legplates of Ascension
+    47470, -- Mystifying Charm
+    47462, -- Skyweaver Vestments
+    47458, -- The Executioner's Vice
+    47463, -- Twin's Pact
+    47910, -- Aegis of the Coliseum
+    47911, -- Anguish
+    47899, -- Ardent Guard
+    47909, -- Belt of the Eternal
+    47905, -- Blackhorn Bludgeon
+    47907, -- Darkmaw Crossbow
+    47903, -- Forsaken Bonecarver
+    47898, -- Frostblade Hatchet
+    47897, -- Helm of the Crypt Lord
+    47902, -- Legplates of Redeemed Blood
+    47894, -- Mace of the Earthborn Chieftain
+    47901, -- Pauldrons of the Shadow Hunter
+    47900, -- Perdition
+    47895, -- Pride of the Kor'kron
+    47906, -- Robes of the Sleepless
+    47904, -- Shoulderpads of the Snow Bandit
+    47896, -- Stoneskin Chestplate
+    47908, -- Sunwalker Legguards
+    48055, -- Aegis of the Coliseum
+    48056, -- Anguish
+    48044, -- Ardent Guard
+    48054, -- Belt of the Eternal
+    48050, -- Blackhorn Bludgeon
+    48052, -- Darkmaw Crossbow
+    48048, -- Forsaken Bonecarver
+    48043, -- Frostblade Hatchet
+    48042, -- Helm of the Crypt Lord
+    48047, -- Legplates of the Redeemed Blood Knight
+    48039, -- Mace of the Earthborn Chieftain
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    48046, -- Pauldrons of the Shadow Hunter
+    48045, -- Perdition
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    48040, -- Pride of the Kor'kron
+    48051, -- Robes of the Sleepless
+    48049, -- Shoulderpads of the Snow Bandit
+    48041, -- Stoneskin Chestplate
+    48053, -- Sunwalker Legguards
+    47313, -- Armbands of Dark Determination
+    47315, -- Band of the Traitor King
+    47324, -- Bindings of the Ashen Saint
+    47321, -- Boots of the Icy Floe
+    47317, -- Breeches of the Deepening Void
+    47325, -- Cuirass of Flowing Elements
+    47330, -- Gauntlets of Bitter Reprisal
+    47323, -- Girdle of the Forgotten Martyr
+    47312, -- Greaves of the Saronite Citadel
+    47326, -- Handwraps of the Lifeless Touch
+    47329, -- Hellion Glaive
+    47314, -- Hellscream Slicer
+    47318, -- Leggings of the Awakening
+    47319, -- Leggings of the Lurking Threat
+    47327, -- Lurid Manifestation
+    47328, -- Maiden's Adoration
+    47320, -- Might of the Nerub
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47316, -- Reign of the Dead
+    47322, -- Suffering's End
+    47311, -- Waistguard of Deathly Dominion
+    47474, -- Armbands of Dark Determination
+    47476, -- Band of the Traitor King
+    47485, -- Bindings of the Ashen Saint
+    47482, -- Boots of the Icy Floe
+    47478, -- Breeches of the Deepening Void
+    47486, -- Cuirass of Flowing Elements
+    47492, -- Gauntlets of Bitter Reprisal
+    47484, -- Girdle of the Forgotten Martyr
+    47473, -- Greaves of the Saronite Citadel
+    47487, -- Handwraps of the Lifeless Touch
+    47491, -- Hellion Glaive
+    47475, -- Hellscream Slicer
+    47479, -- Leggings of the Awakening
+    47480, -- Leggings of the Lurking Threat
+    47489, -- Lurid Manifestation
+    47490, -- Maiden's Adoration
+    47481, -- Might of the Nerub
+    47639, -- Pattern: Bejeweled Wizard's Bracers
+    47646, -- Pattern: Black Chitin Bracers
+    47647, -- Pattern: Bracers of Swift Death
+    47648, -- Pattern: Crusader's Dragonscale Bracers
+    47649, -- Pattern: Crusader's Dragonscale Breastplate
+    47650, -- Pattern: Ensorcelled Nerubian Breastplate
+    47651, -- Pattern: Knightbane Carapace
+    47652, -- Pattern: Lunar Eclipse Robes
+    47638, -- Pattern: Merlin's Robe
+    47653, -- Pattern: Moonshadow Armguards
+    47637, -- Pattern: Royal Moonshroud Bracers
+    47636, -- Pattern: Royal Moonshroud Robe
+    47640, -- Plans: Breastplate of the White Knight
+    47641, -- Plans: Saronite Swordbreakers
+    47642, -- Plans: Sunforged Bracers
+    47643, -- Plans: Sunforged Breastplate
+    47644, -- Plans: Titanium Razorplate
+    47645, -- Plans: Titanium Spikeguards
+    47477, -- Reign of the Dead
+    47483, -- Suffering's End
+    47472  -- Waistguard of Deathly Dominion
+);
+-- Trial of the Crusader has different items for Horde and Alliance
+-- ALLIANCE
+UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
+    47608, -- Acidmaw Boots
+    47610, -- Armbands of the Northern Stalker
+    47615, -- Belt of the Frozen Reach
+    47578, -- Carnivorous Band
+    47607, -- Collar of Ceaseless Torment
+    47611, -- Dreadscale Armguards
+    47609, -- Gauntlets of Rising Anger
+    47614, -- Girdle of the Impaler
+    47617, -- Icehowl Cinch
+    47612, -- Rod of Imprisoned Souls
+    47616, -- Shoulderguards of the Spirit Walker
+    47613, -- Shoulderpads of the Glacial Wilds
+    47919, -- Acidmaw Boots
+    47916, -- Armbands of the Northern Stalker
+    47924, -- Belt of the Frozen Reach
+    47920, -- Carnivorous Band
+    47915, -- Collar of Ceaseless Torment
+    47918, -- Dreadscale Armguards
+    47917, -- Gauntlets of Rising Anger
+    47925, -- Girdle of the Impaler
+    47921, -- Icehowl Cinch
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47922, -- Rod of Imprisoned Souls
+    47926, -- Shoulderguards of the Spirit Walker
+    47923, -- Shoulderpads of the Glacial Wilds
+    46959, -- Band of the Violent Temperment
+    46990, -- Belt of the Ice Burrower
+    46979, -- Blade of Tarasque
+    46961, -- Boneshatter Armplates
+    46985, -- Boots of the Courageous
+    46988, -- Boots of the Unrelenting Storm
+    46960, -- Breastplate of Cruel Intent
+    46962, -- Chestplate of the Towering Monstrosity
+    46972, -- Cord of the Tenebrous Mist
+    46963, -- Crystal Plated Vanguard
+    46970, -- Drape of the Untamed Predator
+    46992, -- Flowing Vestments of Ascent
+    46974, -- Leggings of the Broken Beast
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    46976, -- Shawl of the Refreshing Winds
+    46958, -- Steel Bladebreaker
+    46966, -- Band of the Violent Temperment
+    46991, -- Belt of the Ice Burrower
+    46980, -- Blade of Tarasque
+    46967, -- Boneshatter Armplates
+    46986, -- Boots of the Courageous
+    46989, -- Boots of the Unrelenting Storm
+    46965, -- Breastplate of Cruel Intent
+    46968, -- Chestplate of the Towering Monstrosity
+    46973, -- Cord of the Tenebrous Mist
+    46964, -- Crystal Plated Vanguard
+    46971, -- Drape of the Untamed Predator
+    46993, -- Flowing Vestments of Ascent
+    46975, -- Leggings of the Broken Beast
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    46977, -- Shawl of the Refreshing Winds
+    46969, -- Steel Bladebreaker
+    47619, -- Amulet of Binding Elements
+    47680, -- Armguards of the Nether Lord
+    47669, -- Belt of the Winter Solstice
+    49235, -- Boots of Tortured Space
+    47676, -- Dirk of the Night Watch
+    47679, -- Endurance of the Infernal
+    47663, -- Felspark Bindings
+    47618, -- Firestorm Ring
+    47621, -- Girdle of the Farseer
+    47711, -- Girdle of the Nether Champion
+    47620, -- Leggings of the Demonic Messenger
+    47703, -- Planestalker Signet
+    47683, -- Sentinel Scouting Greaves
+    47930, -- Amulet of Binding Elements
+    47935, -- Armguards of the Nether Lord
+    47929, -- Belt of the Winter Solstice
+    49238, -- Boots of Tortured Space
+    47938, -- Dirk of the Night Watch
+    47939, -- Endurance of the Infernal
+    47927, -- Felspark Bindings
+    47928, -- Firestorm Ring
+    47932, -- Girdle of the Farseer
+    47937, -- Girdle of the Nether Champion
+    47931, -- Leggings of the Demonic Messenger
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47934, -- Planestalker Signet
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47933, -- Sentinel Scouting Greaves
+    46999, -- Bloodbath Belt
+    47056, -- Bracers of Cloudy Omen
+    47055, -- Bracers of the Autumn Willow
+    47043, -- Charge of the Demon Lord
+    47000, -- Cuirass of Calamitous Fate
+    46997, -- Dawnbreaker Greaves
+    47051, -- Leggings of the Soothing Touch
+    47052, -- Legguards of Feverish Dedication
+    47057, -- Legplates of Failing Light
+    46996, -- Lionhead Slasher
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47042, -- Pride of the Eredar
+    47223, -- Ring of the Darkmender
+    47041, -- Solace of the Defeated
+    47053, -- Symbol of Transgression
+    46994, -- Talonstrike
+    47002, -- Bloodbath Belt
+    47068, -- Bracers of Cloudy Omen
+    47066, -- Bracers of the Autumn Willow
+    47060, -- Charge of the Demon Lord
+    47004, -- Cuirass of Calamitous Fate
+    47003, -- Dawnbreaker Greaves
+    47062, -- Leggings of the Soothing Touch
+    47061, -- Legguards of Feverish Dedication
+    47067, -- Legplates of Failing Light
+    47001, -- Lionhead Slasher
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47063, -- Pride of the Eredar
+    47224, -- Ring of the Darkmender
+    47059, -- Solace of the Defeated
+    47064, -- Symbol of Transgression
+    46995, -- Talonstrike
+    47728, -- Binding Light
+    47724, -- Blade of the Silver Disciple
+    47717, -- Faceplate of the Silver Champion
+    47727, -- Fervor of the Frostborn
+    47719, -- Gloves of the Silver Assassin
+    47718, -- Helm of the Silver Ranger
+    47720, -- Pauldrons of the Silver Defender
+    47721, -- Sandals of the Silver Magus
+    47726, -- Talisman of Volatile Power
+    47725, -- Victor's Call
+    47947, -- Binding Light
+    47941, -- Blade of the Silver Disciple
+    47943, -- Faceplate of the Silver Champion
+    47949, -- Fervor of the Frostborn
+    47945, -- Gloves of the Silver Assassin
+    47942, -- Helm of the Silver Ranger
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656  -- Pattern: Royal Moonshroud Bracers
+);
+-- Trial of the Crusader has different items for Horde and Alliance
+-- ALLIANCE
+UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
+    47657, -- Pattern: Royal Moonshroud Robe
+    47944, -- Pauldrons of the Silver Defender
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47940, -- Sandals of the Silver Magus
+    47946, -- Talisman of Volatile Power
+    47948, -- Victor's Call
+    47079, -- Bastion of Purity
+    47092, -- Boots of the Mourning Widow
+    47090, -- Boots of Tremoring Earth
+    47073, -- Bracers of the Untold Massacre
+    47082, -- Chestplate of the Frostborn Hero
+    47089, -- Cloak of Displacement
+    47081, -- Cord of Biting Cold
+    47072, -- Girdle of Bloodied Scars
+    47069, -- Justicebringer
+    47083, -- Legguards of Concealed Hatred
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47070, -- Ring of Callous Aggression
+    47080, -- Satrina's Impeding Scarab
+    47071, -- Treads of the Icewalker
+    47093, -- Vambraces of the Broken Bond
+    47094, -- Vestments of the Shattered Fellowship
+    47085, -- Bastion of Purity
+    47097, -- Boots of the Mourning Widow
+    47099, -- Boots of Tremoring Earth
+    47074, -- Bracers of the Untold Massacre
+    47086, -- Chestplate of the Frostborn Hero
+    47095, -- Cloak of Displacement
+    47084, -- Cord of Biting Cold
+    47076, -- Girdle of Bloodied Scars
+    47078, -- Justicebringer
+    47087, -- Legguards of Concealed Hatred
+    47075, -- Ring of Callous Aggression
+    47088, -- Satrina's Impeding Scarab
+    47077, -- Treads of the Icewalker
+    47098, -- Vambraces of the Broken Bond
+    47096, -- Vestments of the Shattered Fellowship
+    47739, -- Armor of Shifting Shadows
+    49231, -- Boots of the Grieving Soul
+    47742, -- Chalice of Benedictus
+    47747, -- Darkbane Pendant
+    47743, -- Enlightenment
+    47745, -- Gloves of Looming Shadow
+    47744, -- Gloves of the Azure Prophet
+    47746, -- Helm of the Snowy Grotto
+    47736, -- Icefall Blade
+    47700, -- Loop of the Twin Val'kyr
+    47737, -- Reckoning
+    47738, -- Sabatons of the Lingering Vortex
+    47740, -- The Diplomat
+    47954, -- Armor of Shifting Shadows
+    49234, -- Boots of the Grieving Soul
+    47958, -- Chalice of Benedictus
+    47957, -- Darkbane Pendant
+    47960, -- Enlightenment
+    47956, -- Gloves of Looming Shadow
+    47961, -- Gloves of the Azure Prophet
+    47959, -- Helm of the Snowy Grotto
+    47953, -- Icefall Blade
+    47955, -- Loop of the Twin Val'kyr
+    47951, -- Reckoning
+    47952, -- Sabatons of the Lingering Vortex
+    47950, -- The Diplomat
+    47107, -- Belt of the Merciless Killer
+    47141, -- Bindings of Dark Essence
+    47108, -- Bracers of the Shieldmaiden
+    47142, -- Breastplate of the Frozen Lake
+    47138, -- Chalice of Searing Light
+    47140, -- Cord of Pale Thorns
+    47115, -- Death's Verdict
+    47121, -- Legguards of Ascension
+    47114, -- Lupine Longstaff
+    47106, -- Sabatons of Ruthless Judgment
+    47126, -- Skyweaver Robes
+    47116, -- The Arbiter's Muse
+    47105, -- The Executioner's Malice
+    47104, -- Twin Spike
+    47139, -- Wail of the Val'kyr
+    47112, -- Belt of the Merciless Killer
+    47143, -- Bindings of Dark Essence
+    47111, -- Bracers of the Shieldmaiden
+    47147, -- Breastplate of the Frozen Lake
+    47146, -- Chalice of Searing Light
+    47145, -- Cord of Pale Thorns
+    47131, -- Death's Verdict
+    47132, -- Legguards of Ascension
+    47130, -- Lupine Longstaff
+    47109, -- Sabatons of Ruthless Judgment
+    47129, -- Skyweaver Robes
+    47133, -- The Arbiter's Muse
+    47110, -- The Executioner's Malice
+    47113, -- Twin Spike
+    47144, -- Wail of the Val'kyr
+    47809, -- Argent Resolve
+    47741, -- Baelgun's Heavy Crossbow
+    47835, -- Bulwark of the Royal Guard
+    47811, -- Chestguard of the Warden
+    47837, -- Cinch of the Undying
+    47815, -- Cold Convergence
+    47810, -- Crusader's Glory
+    47834, -- Fordragon Blades
+    47813, -- Helmet of the Crypt Lord
+    47836, -- Legplates of the Immortal Spider
+    47830, -- Legplates of the Silver Hand
+    47829, -- Pauldrons of the Timeless Hunter
+    47832, -- Spaulders of the Snow Bandit
+    47816, -- The Grinder
+    47808, -- The Lion's Maw
+    47838, -- Vestments of the Sleepless
+    47812, -- Vigilant Ward
+    47814, -- Westfall Saber
+    47962, -- Argent Resolve
+    47975, -- Baelgun's Heavy Crossbow
+    47978, -- Bulwark of the Royal Guard
+    47964, -- Chestguard of the Warden
+    47977, -- Cinch of the Undying
+    47968, -- Cold Convergence
+    47967, -- Crusader's Glory
+    47979, -- Fordragon Blades
+    47965, -- Helmet of the Crypt Lord
+    47976, -- Legplates of the Immortal Spider
+    47970, -- Legplates of the Silver Hand
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47969, -- Pauldrons of the Timeless Hunter
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47972, -- Spaulders of the Snow Bandit
+    47973, -- The Grinder
+    47966, -- The Lion's Maw
+    47974, -- Vestments of the Sleepless
+    47963, -- Vigilant Ward
+    47971, -- Westfall Saber
+    47233, -- Archon Glaive
+    47203, -- Armbands of the Ashen Saint
+    47054, -- Band of Deplorable Violence
+    47152, -- Belt of Deathly Dominion
+    47195, -- Belt of the Forgotten Martyr
+    47151, -- Bracers of Dark Determination
+    47204, -- Chestguard of Flowing Elements
+    47194, -- Footpads of the Icy Floe
+    47234, -- Gloves of Bitter Reprisal
+    47235, -- Gloves of the Lifeless Touch
+    47150, -- Greaves of the 7th Legion
+    47187, -- Leggings of the Deepening Void
+    47184, -- Legguards of the Lurking Threat
+    47186, -- Legwraps of the Awakening
+    47225, -- Maiden's Favor
+    47193, -- Misery's End
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47182, -- Reign of the Unliving
+    47149, -- Signet of the Traitor King
+    47148, -- Stormpike Cleaver
+    47183, -- Strength of the Nerub
+    47239, -- Archon Glaive
+    47208, -- Armbands of the Ashen Saint
+    47237, -- Band of Deplorable Violence
+    47153, -- Belt of Deathly Dominion
+    47207, -- Belt of the Forgotten Martyr
+    47155, -- Bracers of Dark Determination
+    47209, -- Chestguard of Flowing Elements
+    47205, -- Footpads of the Icy Floe
+    47240, -- Gloves of Bitter Reprisal
+    47236, -- Gloves of the Lifeless Touch
+    47154, -- Greaves of the 7th Legion
+    47189, -- Leggings of the Deepening Void
+    47191, -- Legguards of the Lurking Threat
+    47190, -- Legwraps of the Awakening
+    47238, -- Maiden's Favor
+    47206, -- Misery's End
+    47654, -- Pattern: Bejeweled Wizard's Bracers
+    47629, -- Pattern: Black Chitin Bracers
+    47635, -- Pattern: Bracers of Swift Death
+    47631, -- Pattern: Crusader's Dragonscale Bracers
+    47630, -- Pattern: Crusader's Dragonscale Breastplate
+    47628, -- Pattern: Ensorcelled Nerubian Breastplate
+    47634, -- Pattern: Knightbane Carapace
+    47632, -- Pattern: Lunar Eclipse Robes
+    47655, -- Pattern: Merlin's Robe
+    47633, -- Pattern: Moonshadow Armguards
+    47656, -- Pattern: Royal Moonshroud Bracers
+    47657, -- Pattern: Royal Moonshroud Robe
+    47622, -- Plans: Breastplate of the White Knight
+    47623, -- Plans: Saronite Swordbreakers
+    47627, -- Plans: Sunforged Bracers
+    47626, -- Plans: Sunforged Breastplate
+    47624, -- Plans: Titanium Razorplate
+    47625, -- Plans: Titanium Spikeguards
+    47188, -- Reign of the Unliving
+    47157, -- Signet of the Traitor King
+    47156, -- Stormpike Cleaver
+    47192  -- Strength of the Nerub
+);
+
+-- Vault of Archavon has different items for Horde and Alliance
+-- HORDE
+UPDATE `items` SET `faction` = 'h' WHERE `item_id` IN (
+    48244, -- Garona's Gauntlets of Conquest
+    48246, -- Garona's Legplates of Conquest
+    47802, -- Gul'dan's Gloves of Conquest
+    47800, -- Gul'dan's Leggings of Conquest
+    48387, -- Hellscream's Gauntlets of Conquest
+    48457, -- Hellscream's Handguards of Conquest
+    48459, -- Hellscream's Legguards of Conquest
+    48389, -- Hellscream's Legplates of Conquest
+    48502, -- Koltira's Gauntlets of Conquest
+    48559, -- Koltira's Handguards of Conquest
+    48561, -- Koltira's Legguards of Conquest
+    48504, -- Koltira's Legplates of Conquest
+    48630, -- Liadrin's Gauntlets of Conquest
+    48598, -- Liadrin's Gloves of Conquest
+    48596, -- Liadrin's Greaves of Conquest
+    48653, -- Liadrin's Handguards of Conquest
+    48655, -- Liadrin's Legguards of Conquest
+    48628, -- Liadrin's Legplates of Conquest
+    44083, -- Reins of the Grand Black War Mammoth
+    48183, -- Runetotem's Gloves of Conquest
+    48192, -- Runetotem's Handgrips of Conquest
+    48153, -- Runetotem's Handguards of Conquest
+    48155, -- Runetotem's Leggings of Conquest
+    48190, -- Runetotem's Legguards of Conquest
+    48185, -- Runetotem's Trousers of Conquest
+    47773, -- Sunstrider's Gauntlets of Conquest
+    47775, -- Sunstrider's Leggings of Conquest
+    48337, -- Thrall's Gloves of Conquest
+    48367, -- Thrall's Grips of Conquest
+    48296, -- Thrall's Handguards of Conquest
+    48339, -- Thrall's Kilt of Conquest
+    48298, -- Thrall's Legguards of Conquest
+    48369, -- Thrall's War-Kilt of Conquest
+    48276, -- Windrunner's Handguards of Conquest
+    48278, -- Windrunner's Legguards of Conquest
+    48067, -- Zabra's Gloves of Conquest
+    48097, -- Zabra's Handwraps of Conquest
+    48069, -- Zabra's Leggings of Conquest
+    48099, -- Zabra's Pants of Conquest
+    48241, -- Garona's Gauntlets of Triumph
+    48239, -- Garona's Legplates of Triumph
+    47803, -- Gul'dan's Gloves of Triumph
+    47805, -- Gul'dan's Leggings of Triumph
+    48392, -- Hellscream's Gauntlets of Triumph
+    48462, -- Hellscream's Handguards of Triumph
+    48464, -- Hellscream's Legguards of Triumph
+    48394, -- Hellscream's Legplates of Triumph
+    48499, -- Koltira's Gauntlets of Triumph
+    48556, -- Koltira's Handguards of Triumph
+    48554, -- Koltira's Legguards of Triumph
+    48497, -- Koltira's Legplates of Triumph
+    48625, -- Liadrin's Gauntlets of Triumph
+    48593, -- Liadrin's Gloves of Triumph
+    48591, -- Liadrin's Greaves of Triumph
+    48658, -- Liadrin's Handguards of Triumph
+    48660, -- Liadrin's Legguards of Triumph
+    48623, -- Liadrin's Legplates of Triumph
+    44083, -- Reins of the Grand Black War Mammoth
+    48182, -- Runetotem's Gloves of Triumph
+    48193, -- Runetotem's Handgrips of Triumph
+    48152, -- Runetotem's Handguards of Triumph
+    48150, -- Runetotem's Leggings of Triumph
+    48195, -- Runetotem's Legguards of Triumph
+    48180, -- Runetotem's Trousers of Triumph
+    47772, -- Sunstrider's Gauntlets of Triumph
+    47770, -- Sunstrider's Leggings of Triumph
+    48334, -- Thrall's Gloves of Triumph
+    48364, -- Thrall's Grips of Triumph
+    48301, -- Thrall's Handguards of Triumph
+    48332, -- Thrall's Kilt of Triumph
+    48303, -- Thrall's Legguards of Triumph
+    48362, -- Thrall's War-Kilt of Triumph
+    48273, -- Windrunner's Handguards of Triumph
+    48271, -- Windrunner's Legguards of Triumph
+    48066, -- Zabra's Gloves of Triumph
+    48096, -- Zabra's Handwraps of Triumph
+    48064, -- Zabra's Leggings of Triumph
+    48094  -- Zabra's Pants of Triumph
+);
+
+-- Vault of Archavon has different items for Horde and Alliance
+-- ALLIANCE
+UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
+    47783, -- Kel'Thuzad's Gloves of Conquest
+    47785, -- Kel'Thuzad's Leggings of Conquest
+    47752, -- Khadgar's Gauntlets of Conquest
+    47750, -- Khadgar's Leggings of Conquest
+    48162, -- Malfurion's Gloves of Conquest
+    48213, -- Malfurion's Handgrips of Conquest
+    48132, -- Malfurion's Handguards of Conquest
+    48130, -- Malfurion's Leggings of Conquest
+    48215, -- Malfurion's Legguards of Conquest
+    48160, -- Malfurion's Trousers of Conquest
+    48312, -- Nobundo's Gloves of Conquest
+    48342, -- Nobundo's Grips of Conquest
+    48284, -- Nobundo's Handguards of Conquest
+    48314, -- Nobundo's Kilt of Conquest
+    48282, -- Nobundo's Legguards of Conquest
+    48344, -- Nobundo's War-Kilt of Conquest
+    43959, -- Reins of the Grand Black War Mammoth
+    48480, -- Thassarian's Gauntlets of Conquest
+    48537, -- Thassarian's Handguards of Conquest
+    48533, -- Thassarian's Legguards of Conquest
+    48476, -- Thassarian's Legplates of Conquest
+    48603, -- Turalyon's Gauntlets of Conquest
+    48574, -- Turalyon's Gloves of Conquest
+    48568, -- Turalyon's Greaves of Conquest
+    48633, -- Turalyon's Handguards of Conquest
+    48635, -- Turalyon's Legguards of Conquest
+    48605, -- Turalyon's Legplates of Conquest
+    48222, -- VanCleef's Gauntlets of Conquest
+    48220, -- VanCleef's Legplates of Conquest
+    47982, -- Velen's Gloves of Conquest
+    48072, -- Velen's Handwraps of Conquest
+    47980, -- Velen's Leggings of Conquest
+    48074, -- Velen's Pants of Conquest
+    48254, -- Windrunner's Handguards of Conquest
+    48252, -- Windrunner's Legguards of Conquest
+    48375, -- Wrynn's Gauntlets of Conquest
+    48449, -- Wrynn's Handguards of Conquest
+    48445, -- Wrynn's Legguards of Conquest
+    48373, -- Wrynn's Legplates of Conquest
+    47782, -- Kel'Thuzad's Gloves of Triumph
+    47780, -- Kel'Thuzad's Leggings of Triumph
+    47753, -- Khadgar's Gauntlets of Triumph
+    47755, -- Khadgar's Leggings of Triumph
+    48163, -- Malfurion's Gloves of Triumph
+    48212, -- Malfurion's Handgrips of Triumph
+    48133, -- Malfurion's Handguards of Triumph
+    48135, -- Malfurion's Leggings of Triumph
+    48210, -- Malfurion's Legguards of Triumph
+    48165, -- Malfurion's Trousers of Triumph
+    48317, -- Nobundo's Gloves of Triumph
+    48347, -- Nobundo's Grips of Triumph
+    48286, -- Nobundo's Handguards of Triumph
+    48319, -- Nobundo's Kilt of Triumph
+    48288, -- Nobundo's Legguards of Triumph
+    48349, -- Nobundo's War-Kilt of Triumph
+    43959, -- Reins of the Grand Black War Mammoth
+    48482, -- Thassarian's Gauntlets of Triumph
+    48539, -- Thassarian's Handguards of Triumph
+    48541, -- Thassarian's Legguards of Triumph
+    48484, -- Thassarian's Legplates of Triumph
+    48608, -- Turalyon's Gauntlets of Triumph
+    48576, -- Turalyon's Gloves of Triumph
+    48578, -- Turalyon's Greaves of Triumph
+    48640, -- Turalyon's Handguards of Triumph
+    48638, -- Turalyon's Legguards of Triumph
+    48610, -- Turalyon's Legplates of Triumph
+    48224, -- VanCleef's Gauntlets of Triumph
+    48226, -- VanCleef's Legplates of Triumph
+    47983, -- Velen's Gloves of Triumph
+    48077, -- Velen's Handwraps of Triumph
+    47985, -- Velen's Leggings of Triumph
+    48079, -- Velen's Pants of Triumph
+    48256, -- Windrunner's Handguards of Triumph
+    48258, -- Windrunner's Legguards of Triumph
+    48377, -- Wrynn's Gauntlets of Triumph
+    48452, -- Wrynn's Handguards of Triumph
+    48446, -- Wrynn's Legguards of Triumph
+    48379  -- Wrynn's Legplates of Triumph
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
