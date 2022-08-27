@@ -16,8 +16,8 @@ VALUES
     ("Trial of the Crusader N25", "TotC N25", "trial-of-the-crusader-25",  30, "2022-08-25 00:00:00"), -- instance ID 4722
     ("Trial of the Crusader H10", "TotC H10", "trial-of-the-crusader-h10", 31, "2022-08-25 00:00:00"), -- instance ID 4722
     ("Trial of the Crusader H25", "TotC H25", "trial-of-the-crusader-h25", 32, "2022-08-25 00:00:00"), -- instance ID 4722
-    ("Onyxia\'s Lair N10",         "Ony N10",  "onyxias-lair-n10",         33, "2022-08-25 00:00:00"), -- instance ID 1234
-    ("Onyxia\'s Lair N25",         "Ony N25",  "onyxias-lair-n25",         34, "2022-08-25 00:00:00"), -- instance ID 1234
+    ("Onyxia's Lair N10",         "Ony N10",  "onyxias-lair-n10",          33, "2022-08-25 00:00:00"), -- instance ID 1234
+    ("Onyxia's Lair N25",         "Ony N25",  "onyxias-lair-n25",          34, "2022-08-25 00:00:00"), -- instance ID 1234
     ("Icecrown Citadel N10",      "ICC N10",  "icecrown-citadel-n10",      35, "2022-08-25 00:00:00"), -- instance ID 4812
     ("Icecrown Citadel N25",      "ICC N25",  "icecrown-citadel-n25",      36, "2022-08-25 00:00:00"), -- instance ID 4812
     ("Icecrown Citadel H10",      "ICC H10",  "icecrown-citadel-h10",      37, "2022-08-25 00:00:00"), -- instance ID 4812

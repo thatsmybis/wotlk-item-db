@@ -4966,37 +4966,3 @@ UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
     48446, -- Wrynn's Legguards of Triumph
     48379  -- Wrynn's Legplates of Triumph
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
