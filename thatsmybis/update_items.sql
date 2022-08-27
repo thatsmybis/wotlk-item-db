@@ -3711,24 +3711,6 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (
     -- Shadowfrost Shard, Fragment of Val'anyr, Runed Orb, Primodial Saronite, Crusader Orb
         49623, -- Shadowmourne
         46017, -- Val'anyr, Hammer of Ancient Kings
-        63188, -- Battlelord's Plate Boots
-        63200, -- Belt of Arctic Life
-        63194, -- Belt of Dragons
-        63187, -- Belt of the Titans
-        63196, -- Blue Belt of Chaos
-        63195, -- Boots of Living Scale
-        63201, -- Boots of Wintry Endurance
-        63205, -- Cord of the White Dawn
-        63198, -- Death-warmed Belt
-        63199, -- Footpads of Silence
-        63191, -- Indestructible Plate Girdle
-        63197, -- Lightning Grounded Boots
-        63189, -- Plate Girdle of Righteousness
-        63203, -- Sash of Ancient Power
-        63206, -- Savior's Slippers
-        63204, -- Spellslinger's Slippers
-        63192, -- Spiked Deathdealers
-        63190, -- Treads of Destiny
         49959, -- Pattern: Bladeborn Leggings
         49958, -- Pattern: Blessed Cenarion Boots
         49954, -- Pattern: Deathfrost Boots
@@ -3747,61 +3729,82 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (
         49973, -- Plans: Pillars of Might
         49970, -- Plans: Protectors of Life
         49969, -- Plans: Puresteel Legplates
-        70556, -- Bladeborn Leggings
-        70555, -- Blessed Cenarion Boots
-        70568, -- Boots of Kingly Upheaval
-        70551, -- Deathfrost Boots
-        70560, -- Draconic Bonesplinter Legguards
-        70559, -- Earthsoul Boots
-        70557, -- Footpads of Impending Death
-        70566, -- Hellfrozen Bonegrinders
-        70550, -- Leggings of Woven Death
-        70565, -- Legplates of Painful Death
-        70554, -- Legwraps of Unleashed Nature
-        70558, -- Lightning-Infused Leggings
-        70552, -- Lightweave Leggings
-        70567, -- Pillars of Might
-        70563, -- Protectors of Life
-        70562, -- Puresteel Legplates
-        70561, -- Rock-Steady Treads
-        70553, -- Sandals of Consecration
         49623, -- Shadowmourne
-        67079, -- Bejeweled Wizard's Bracers
-        67145, -- Bejeweled Wizard's Bracers
-        67081, -- Black Chitin Bracers
-        67137, -- Black Chitin Bracers
-        67087, -- Bracers of Swift Death
-        67139, -- Bracers of Swift Death
-        67091, -- Breastplate of the White Knight
-        67130, -- Breastplate of the White Knight
-        67083, -- Crusader's Dragonscale Bracers
-        67143, -- Crusader's Dragonscale Bracers
-        67082, -- Crusader's Dragonscale Breastplate
-        67138, -- Crusader's Dragonscale Breastplate
-        67080, -- Ensorcelled Nerubian Breastplate
-        67136, -- Ensorcelled Nerubian Breastplate
-        67086, -- Knightbane Carapace
-        67142, -- Knightbane Carapace
-        67084, -- Lunar Eclipse Robes
-        67140, -- Lunar Eclipse Robes
-        67066, -- Merlin's Robe
-        67146, -- Merlin's Robe
-        67085, -- Moonshadow Armguards
-        67141, -- Moonshadow Armguards
-        67065, -- Royal Moonshroud Bracers
-        67147, -- Royal Moonshroud Bracers
-        67064, -- Royal Moonshroud Robe
-        67144, -- Royal Moonshroud Robe
-        67092, -- Saronite Swordbreakers
-        67131, -- Saronite Swordbreakers
-        67096, -- Sunforged Bracers
-        67135, -- Sunforged Bracers
-        67095, -- Sunforged Breastplate
-        67134, -- Sunforged Breastplate
-        67093, -- Titanium Razorplate
-        67132, -- Titanium Razorplate
-        67094, -- Titanium Spikeguards
-        67133 -- Titanium Spikeguards
+
+        45559, -- Battlelord's Plate Boots
+        45556, -- Belt of Arctic Life
+        45553, -- Belt of Dragons
+        45550, -- Belt of the Titans
+        45554, -- Blue Belt of Chaos
+        45562, -- Boots of Living Scale
+        45565, -- Boots of Wintry Endurance
+        45558, -- Cord of the White Dawn
+        45555, -- Death-Warmed Belt
+        45564, -- Footpads of Silence
+        45551, -- Indestructible Plate Girdle
+        45563, -- Lightning Grounded Boots
+        45552, -- Plate Girdle of Righteousness
+        45557, -- Sash of Ancient Power
+        45567, -- Savior's Slippers
+        45566, -- Spellslinger's Slippers
+        45560, -- Spiked Deathdealers
+        45561, -- Treads of Destiny
+
+        49899, -- Bladeborn Leggings
+        49894, -- Blessed Cenarion Boots
+        49907, -- Boots of Kingly Upheaval
+        49890, -- Deathfrost Boots
+        49901, -- Draconic Bonesplinter Legguards
+        49896, -- Earthsoul Boots
+        49895, -- Footpads of Impending Death
+        49906, -- Hellfrozen Bonegrinders
+        49891, -- Leggings of Woven Death
+        49903, -- Legplates of Painful Death
+        49898, -- Legwraps of Unleashed Nature
+        49900, -- Lightning-Infused Leggings
+        49892, -- Lightweave Leggings
+        49904, -- Pillars of Might
+        49905, -- Protectors of Life
+        49902, -- Puresteel Legplates
+        49897, -- Rock-Steady Treads
+        49893, -- Sandals of Consecration
+
+        47585, -- Bejeweled Wizard's Bracers
+        47586, -- Bejeweled Wizard's Bracers
+        47579, -- Black Chitin Bracers
+        47580, -- Black Chitin Bracers
+        47581, -- Bracers of Swift Death
+        47582, -- Bracers of Swift Death
+        47591, -- Breastplate of the White Knight
+        47592, -- Breastplate of the White Knight
+        47576, -- Crusader's Dragonscale Bracers
+        47577, -- Crusader's Dragonscale Bracers
+        47595, -- Crusader's Dragonscale Breastplate
+        47596, -- Crusader's Dragonscale Breastplate
+        47597, -- Ensorcelled Nerubian Breastplate
+        47598, -- Ensorcelled Nerubian Breastplate
+        47599, -- Knightbane Carapace
+        47600, -- Knightbane Carapace
+        47602, -- Lunar Eclipse Robes
+        47601, -- Lunar Eclipse Robes
+        47603, -- Merlin's Robe
+        47604, -- Merlin's Robe
+        47583, -- Moonshadow Armguards
+        47584, -- Moonshadow Armguards
+        47587, -- Royal Moonshroud Bracers
+        47588, -- Royal Moonshroud Bracers
+        47605, -- Royal Moonshroud Robe
+        47606, -- Royal Moonshroud Robe
+        47570, -- Saronite Swordbreakers
+        47571, -- Saronite Swordbreakers
+        47574, -- Sunforged Bracers
+        47575, -- Sunforged Bracers
+        47593, -- Sunforged Breastplate
+        47594, -- Sunforged Breastplate
+        47589, -- Titanium Razorplate
+        47590, -- Titanium Razorplate
+        47572, -- Titanium Spikeguards
+        47573 -- Titanium Spikeguards
 );
 
 -- Trial of the Crusader has different items for Horde and Alliance
