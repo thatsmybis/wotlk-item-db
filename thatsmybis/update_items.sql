@@ -4969,3 +4969,85 @@ UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
     48446, -- Wrynn's Legguards of Triumph
     48379  -- Wrynn's Legplates of Triumph
 );
+
+-- Crusader Orb has different items for Horde and Alliance
+-- HORDE
+UPDATE `items` SET `faction` = 'h' WHERE `item_id` IN (
+    47586, -- Bejeweled Wizard's Bracers
+    47580, -- Black Chitin Bracers
+    47582, -- Bracers of Swift Death
+    47592, -- Breastplate of the White Knight
+    47577, -- Crusader's Dragonscale Bracers
+    47596, -- Crusader's Dragonscale Breastplate
+    47598, -- Ensorcelled Nerubian Breastplate
+    47600, -- Knightbane Carapace
+    47601, -- Lunar Eclipse Robes
+    47604, -- Merlin's Robe
+    47584, -- Moonshadow Armguards
+    47588, -- Royal Moonshroud Bracers
+    47606, -- Royal Moonshroud Robe
+    47571, -- Saronite Swordbreakers
+    47575, -- Sunforged Bracers
+    47594, -- Sunforged Breastplate
+    47590, -- Titanium Razorplate
+    47573  -- Titanium Spikeguards
+);
+UPDATE `items` SET `name` = "Bejeweled Wizard's Bracers (H)" WHERE `item_id` = 47586;
+UPDATE `items` SET `name` = "Black Chitin Bracers (H)" WHERE `item_id` = 47580;
+UPDATE `items` SET `name` = "Bracers of Swift Death (H)" WHERE `item_id` = 47582;
+UPDATE `items` SET `name` = "Breastplate of the White Knight (H)" WHERE `item_id` = 47592;
+UPDATE `items` SET `name` = "Crusader's Dragonscale Bracers (H)" WHERE `item_id` = 47577;
+UPDATE `items` SET `name` = "Crusader's Dragonscale Breastplate (H)" WHERE `item_id` = 47596;
+UPDATE `items` SET `name` = "Ensorcelled Nerubian Breastplate (H)" WHERE `item_id` = 47598;
+UPDATE `items` SET `name` = "Knightbane Carapace (H)" WHERE `item_id` = 47600;
+UPDATE `items` SET `name` = "Lunar Eclipse Robes (H)" WHERE `item_id` = 47601;
+UPDATE `items` SET `name` = "Merlin's Robe (H)" WHERE `item_id` = 47604;
+UPDATE `items` SET `name` = "Moonshadow Armguards (H)" WHERE `item_id` = 47584;
+UPDATE `items` SET `name` = "Royal Moonshroud Bracers (H)" WHERE `item_id` = 47588;
+UPDATE `items` SET `name` = "Royal Moonshroud Robe (H)" WHERE `item_id` = 47606;
+UPDATE `items` SET `name` = "Saronite Swordbreakers (H)" WHERE `item_id` = 47571;
+UPDATE `items` SET `name` = "Sunforged Bracers (H)" WHERE `item_id` = 47575;
+UPDATE `items` SET `name` = "Sunforged Breastplate (H)" WHERE `item_id` = 47594;
+UPDATE `items` SET `name` = "Titanium Razorplate (H)" WHERE `item_id` = 47590;
+UPDATE `items` SET `name` = "Titanium Spikeguards (H)" WHERE `item_id` = 47573;
+
+-- Crusader Orb has different items for Horde and Alliance
+-- ALLIANCE
+UPDATE `items` SET `faction` = 'a' WHERE `item_id` IN (
+    47585, -- Bejeweled Wizard's Bracers
+    47579, -- Black Chitin Bracers
+    47581, -- Bracers of Swift Death
+    47591, -- Breastplate of the White Knight
+    47576, -- Crusader's Dragonscale Bracers
+    47595, -- Crusader's Dragonscale Breastplate
+    47597, -- Ensorcelled Nerubian Breastplate
+    47599, -- Knightbane Carapace
+    47602, -- Lunar Eclipse Robes
+    47603, -- Merlin's Robe
+    47583, -- Moonshadow Armguards
+    47587, -- Royal Moonshroud Bracers
+    47605, -- Royal Moonshroud Robe
+    47570, -- Saronite Swordbreakers
+    47574, -- Sunforged Bracers
+    47593, -- Sunforged Breastplate
+    47589, -- Titanium Razorplate
+    47572  -- Titanium Spikeguards
+);
+UPDATE `items` SET `name` = "Bejeweled Wizard's Bracers (A)" WHERE `item_id` = 47585;
+UPDATE `items` SET `name` = "Black Chitin Bracers (A)" WHERE `item_id` = 47579;
+UPDATE `items` SET `name` = "Bracers of Swift Death (A)" WHERE `item_id` = 47581;
+UPDATE `items` SET `name` = "Breastplate of the White Knight (A)" WHERE `item_id` = 47591;
+UPDATE `items` SET `name` = "Crusader's Dragonscale Bracers (A)" WHERE `item_id` = 47576;
+UPDATE `items` SET `name` = "Crusader's Dragonscale Breastplate (A)" WHERE `item_id` = 47595;
+UPDATE `items` SET `name` = "Ensorcelled Nerubian Breastplate (A)" WHERE `item_id` = 47597;
+UPDATE `items` SET `name` = "Knightbane Carapace (A)" WHERE `item_id` = 47599;
+UPDATE `items` SET `name` = "Lunar Eclipse Robes (A)" WHERE `item_id` = 47602;
+UPDATE `items` SET `name` = "Merlin's Robe (A)" WHERE `item_id` = 47603;
+UPDATE `items` SET `name` = "Moonshadow Armguards (A)" WHERE `item_id` = 47583;
+UPDATE `items` SET `name` = "Royal Moonshroud Bracers (A)" WHERE `item_id` = 47587;
+UPDATE `items` SET `name` = "Royal Moonshroud Robe (A)" WHERE `item_id` = 47605;
+UPDATE `items` SET `name` = "Saronite Swordbreakers (A)" WHERE `item_id` = 47570;
+UPDATE `items` SET `name` = "Sunforged Bracers (A)" WHERE `item_id` = 47574;
+UPDATE `items` SET `name` = "Sunforged Breastplate (A)" WHERE `item_id` = 47593;
+UPDATE `items` SET `name` = "Titanium Razorplate (A)" WHERE `item_id` = 47589;
+UPDATE `items` SET `name` = "Titanium Spikeguards (A)" WHERE `item_id` = 47572;
