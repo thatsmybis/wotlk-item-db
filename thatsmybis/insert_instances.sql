@@ -26,3 +26,5 @@ VALUES
     ("Ruby Sanctum N25",          "RS N25",   "ruby-sanctum-n25",          40, "2022-08-25 00:00:00"), -- instance ID 4987
     ("Ruby Sanctum H10",          "RS H10",   "ruby-sanctum-h10",          41, "2022-08-25 00:00:00"), -- instance ID 4987
     ("Ruby Sanctum H25",          "RS H25",   "ruby-sanctum-h25",          42, "2022-08-25 00:00:00"); -- instance ID 4987
+
+UPDATE `instances` SET `expansion_id` = 3 WHERE `id` > 18;
