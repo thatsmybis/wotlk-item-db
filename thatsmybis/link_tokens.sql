@@ -1048,3 +1048,8 @@ UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE 
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47590 AND `expansion_id` = 3; -- Titanium Razorplate
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47572 AND `expansion_id` = 3; -- Titanium Spikeguards
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47573 AND `expansion_id` = 3; -- Titanium Spikeguards
+-- Heart of Magic
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44658 AND `expansion_id` = 3;
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44657 AND `expansion_id` = 3;
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44659 AND `expansion_id` = 3;
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44660 AND `expansion_id` = 3;
