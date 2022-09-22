@@ -240,7 +240,6 @@ VALUES
     (169, 39723, "2022-08-25 00:00:00"), -- Fire-Scorched Greathelm
     (169, 40065, "2022-08-25 00:00:00"), -- Fool's Trial
     (169, 39733, "2022-08-25 00:00:00"), -- Gloves of Token Respect
-    (169, 39200, "2022-08-25 00:00:00"), -- Grieving Spellblade
     (169, 40069, "2022-08-25 00:00:00"), -- Heritage
     (169, 39757, "2022-08-25 00:00:00"), -- Idol of Worship
     (169, 40080, "2022-08-25 00:00:00"), -- Lost Jewel
@@ -273,7 +272,6 @@ VALUES
     (170, 40253, "2022-08-25 00:00:00"), -- Shawl of the Old Maid
     (170, 40251, "2022-08-25 00:00:00"), -- Shroud of Luminosity
     (170, 39765, "2022-08-25 00:00:00"), -- Sinner's Bindings
-    (170, 39230, "2022-08-25 00:00:00"), -- Spaulders of the Monstrosity
     (170, 39758, "2022-08-25 00:00:00"), -- The Jawbone
     (170, 39762, "2022-08-25 00:00:00"), -- Torn Web Wrapping
     (170, 39767, "2022-08-25 00:00:00"), -- Undiminished Battleplate
@@ -537,7 +535,6 @@ VALUES
     (181, 40380, "2022-08-25 00:00:00"), -- Gloves of Grandeur
     (181, 44577, "2022-08-25 00:00:00"), -- Heroic Key to the Focusing Iris
     (181, 40369, "2022-08-25 00:00:00"), -- Icy Blast Amulet
-    (181, 44569, "2022-08-25 00:00:00"), -- Key to the Focusing Iris
     (181, 40379, "2022-08-25 00:00:00"), -- Legguards of the Boneyard
     (181, 40376, "2022-08-25 00:00:00"), -- Legwraps of the Defeated Dragon
     (181, 40368, "2022-08-25 00:00:00"), -- Murder
@@ -601,7 +598,6 @@ VALUES
     (184, 40591, "2022-08-25 00:00:00"), -- Melancholy Sabatons
     (184, 43952, "2022-08-25 00:00:00"), -- Reins of the Azure Drake
     (184, 40594, "2022-08-25 00:00:00"), -- Spaulders of Catatonia
-    (184, 40474, "2022-08-25 00:00:00"), -- Surge Needle Ring
     (184, 40588, "2022-08-25 00:00:00"), -- Tunic of the Artifact Guardian
     (184, 40566, "2022-08-25 00:00:00"), -- Unravelling Strands of Sanity
     (184, 40564, "2022-08-25 00:00:00"), -- Winter Spectacle Gloves
@@ -639,8 +635,6 @@ VALUES
     (186, 40628, "2022-08-25 00:00:00"), -- Gauntlets of the Lost Conqueror
     (186, 40629, "2022-08-25 00:00:00"), -- Gauntlets of the Lost Protector
     (186, 40630, "2022-08-25 00:00:00"), -- Gauntlets of the Lost Vanquisher
-    (186, 40614, "2022-08-25 00:00:00"), -- Gloves of the Lost Protector
-    (186, 40615, "2022-08-25 00:00:00"), -- Gloves of the Lost Vanquisher
     (186, 44007, "2022-08-25 00:00:00"), -- Headpiece of Reconciliation
     (186, 40451, "2022-08-25 00:00:00"), -- Hyaline Helm of the Sniper
     (186, 40432, "2022-08-25 00:00:00"), -- Illustration of the Dragon Soul
