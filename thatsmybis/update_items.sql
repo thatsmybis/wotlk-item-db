@@ -22,6 +22,15 @@ DELETE FROM `items` WHERE `item_id` = 43959;
 UPDATE `items` SET `name` = 'Warglaive of Azzinoth (mainhand)' WHERE `item_id` = 32837;
 UPDATE `items` SET `name` = 'Warglaive of Azzinoth (offhand)' WHERE `item_id` = 32838;
 
+UPDATE `items` SET `name` = 'Heart of Magic (Heroic)', `is_heroic` = 1 WHERE `item_id` = 44651;
+UPDATE `items` SET `name` = 'Heart of Magic (Normal)', `is_heroic` = 0 WHERE `item_id` = 44650;
+-- Key to the Focusing Iris
+UPDATE `items` SET `is_heroic` = 1 WHERE `item_id` = 44577;
+UPDATE `items` SET `is_heroic` = 0 WHERE `item_id` = 44569;
+-- Key to the Focusing Iris (quest item; not the one that starts the quest)
+UPDATE `items` SET `is_heroic` = 1 WHERE `item_id` = 44581;
+UPDATE `items` SET `is_heroic` = 0 WHERE `item_id` = 44582;
+
 -- weight is used to give these items priority sorting when searching items
 UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (
     -- tokens (even though most/all of these should be duplicated in the dungeon loot)

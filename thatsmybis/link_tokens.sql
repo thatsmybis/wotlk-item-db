@@ -1048,8 +1048,31 @@ UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE 
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47590 AND `expansion_id` = 3; -- Titanium Razorplate
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47572 AND `expansion_id` = 3; -- Titanium Spikeguards
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 47556 LIMIT 1) as haxxorz), `parent_item_id` = 47556 WHERE `item_id` = 47573 AND `expansion_id` = 3; -- Titanium Spikeguards
+-- Heart of Magic should drop for everyone who has the quest item. No need to wishlist/prio it.
 -- Heart of Magic
-UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44658 AND `expansion_id` = 3;
-UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44657 AND `expansion_id` = 3;
-UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44659 AND `expansion_id` = 3;
-UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44660 AND `expansion_id` = 3;
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44658 AND `expansion_id` = 3; -- Chain of the Ancient Wyrm
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44657 AND `expansion_id` = 3; -- Torque of the Red Dragonflight
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44659 AND `expansion_id` = 3; -- Pendant of the Dragonsworn
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44650 LIMIT 1) as haxxorz), `parent_item_id` = 44650 WHERE `item_id` = 44660 AND `expansion_id` = 3; -- Drakescale Collar
+-- Heart of Magic (Heroic)
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44651 LIMIT 1) as haxxorz), `parent_item_id` = 44651 WHERE `item_id` = 44664 AND `expansion_id` = 3; -- Favor of the Dragon Queen
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44651 LIMIT 1) as haxxorz), `parent_item_id` = 44651 WHERE `item_id` = 44662 AND `expansion_id` = 3; -- Life-Binder's Locket
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44651 LIMIT 1) as haxxorz), `parent_item_id` = 44651 WHERE `item_id` = 44665 AND `expansion_id` = 3; -- Nexus War Champion Beads
+-- UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44651 LIMIT 1) as haxxorz), `parent_item_id` = 44651 WHERE `item_id` = 44661 AND `expansion_id` = 3; -- Wyrmrest Necklace of Power
+-- This item leads to Heart of Magic. This is the important quest item to be prio'd/wishlisted.
+-- Key to the Focusing Iris
+UPDATE `items` SET `parent_id` = NULL, `parent_item_id` = NULL WHERE `item_id` = 44569 AND `expansion_id` = 3; -- Key to the Focusing Iris
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44650 AND `expansion_id` = 3; -- Heart of Magic
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44582 AND `expansion_id` = 3; -- Key to the Focusing Iris (quest item; not the one that starts the quest)
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44658 AND `expansion_id` = 3; -- Chain of the Ancient Wyrm
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44657 AND `expansion_id` = 3; -- Torque of the Red Dragonflight
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44659 AND `expansion_id` = 3; -- Pendant of the Dragonsworn
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44569 LIMIT 1) as haxxorz), `parent_item_id` = 44569 WHERE `item_id` = 44660 AND `expansion_id` = 3; -- Drakescale Collar
+-- Heroic Key to the Focusing Iris
+UPDATE `items` SET `parent_id` = NULL, `parent_item_id` = NULL WHERE `item_id` = 44577 AND `expansion_id` = 3; -- Key to the Focusing Iris
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44651 AND `expansion_id` = 3; -- Heart of Magic
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44581 AND `expansion_id` = 3; -- Heroic Key to the Focusing Iris (quest item; not the one that starts the quest)
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44664 AND `expansion_id` = 3; -- Favor of the Dragon Queen
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44662 AND `expansion_id` = 3; -- Life-Binder's Locket
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44665 AND `expansion_id` = 3; -- Nexus War Champion Beads
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44661 AND `expansion_id` = 3; -- Wyrmrest Necklace of Power
