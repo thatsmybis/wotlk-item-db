@@ -1913,7 +1913,6 @@ VALUES
     (215, 45106, "2022-08-25 00:00:00"), -- Strength of the Automaton
     (215, 45112, "2022-08-25 00:00:00"), -- The Leviathan's Coil
     (215, 45110, "2022-08-25 00:00:00"), -- Titanguard
-    (216, 45038, "2022-08-25 00:00:00"), -- Fragment of Val'anyr
     (216, 45166, "2022-08-25 00:00:00"), -- Charred Saronite Greaves
     (216, 45157, "2022-08-25 00:00:00"), -- Cindershard Ring
     (216, 45162, "2022-08-25 00:00:00"), -- Flamestalker Boots
@@ -2022,7 +2021,6 @@ VALUES
     (222, 45617, "2022-08-25 00:00:00"), -- Cosmos
     (222, 45613, "2022-08-25 00:00:00"), -- Dreambinder
     (222, 45607, "2022-08-25 00:00:00"), -- Fang of Oblivion
-    (222, 45038, "2022-08-25 00:00:00"), -- Fragment of Val'anyr
     (222, 45594, "2022-08-25 00:00:00"), -- Legplates of the Endless Void
     (222, 45665, "2022-08-25 00:00:00"), -- Pharos Gloves
     (222, 45615, "2022-08-25 00:00:00"), -- Planewalker Treads
@@ -2055,7 +2053,6 @@ VALUES
     (225, 45640, "2022-08-25 00:00:00"), -- Crown of the Wayward Vanquisher
     (225, 45473, "2022-08-25 00:00:00"), -- Embrace of the Gladiator
     (225, 45471, "2022-08-25 00:00:00"), -- Fate's Clutch
-    (225, 45038, "2022-08-25 00:00:00"), -- Fragment of Val'anyr
     (225, 45468, "2022-08-25 00:00:00"), -- Leggings of Lost Love
     (225, 45474, "2022-08-25 00:00:00"), -- Pauldrons of the Combatant
     (225, 45466, "2022-08-25 00:00:00"), -- Scale of Fates
@@ -2069,7 +2066,6 @@ VALUES
     (226, 45495, "2022-08-25 00:00:00"), -- Conductive Seal
     (226, 45497, "2022-08-25 00:00:00"), -- Crown of Luminescence
     (226, 45494, "2022-08-25 00:00:00"), -- Delirium's Touch
-    (226, 45038, "2022-08-25 00:00:00"), -- Fragment of Val'anyr
     (226, 45641, "2022-08-25 00:00:00"), -- Gauntlets of the Wayward Conqueror
     (226, 45642, "2022-08-25 00:00:00"), -- Gauntlets of the Wayward Protector
     (226, 45643, "2022-08-25 00:00:00"), -- Gauntlets of the Wayward Vanquisher
@@ -2105,7 +2101,6 @@ VALUES
     (228, 45532, "2022-08-25 00:00:00"), -- Cowl of Dark Whispers
     (228, 45533, "2022-08-25 00:00:00"), -- Dark Edge of Depravity
     (228, 45521, "2022-08-25 00:00:00"), -- Earthshaper
-    (228, 45038, "2022-08-25 00:00:00"), -- Fragment of Val'anyr
     (228, 45523, "2022-08-25 00:00:00"), -- Garona's Guise
     (228, 45525, "2022-08-25 00:00:00"), -- Godbane Signet
     (228, 45536, "2022-08-25 00:00:00"), -- Legguards of Cunning Deception
