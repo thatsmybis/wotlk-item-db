@@ -1076,3 +1076,15 @@ UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE 
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44662 AND `expansion_id` = 3; -- Life-Binder's Locket
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44665 AND `expansion_id` = 3; -- Nexus War Champion Beads
 UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 44577 LIMIT 1) as haxxorz), `parent_item_id` = 44577 WHERE `item_id` = 44661 AND `expansion_id` = 3; -- Wyrmrest Necklace of Power
+
+-- Reply-Code Alpha N25
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46053 LIMIT 1) AS haxxorz), `parent_item_id` = 46053 WHERE `item_id` = 45608 AND `expansion_id` = 3; -- Brann's Signet Ring
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46053 LIMIT 1) AS haxxorz), `parent_item_id` = 46053 WHERE `item_id` = 45588 AND `expansion_id` = 3; -- Drape of the Skyborn
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46053 LIMIT 1) AS haxxorz), `parent_item_id` = 46053 WHERE `item_id` = 45614 AND `expansion_id` = 3; -- Starshine Circle
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46053 LIMIT 1) AS haxxorz), `parent_item_id` = 46053 WHERE `item_id` = 45618 AND `expansion_id` = 3; -- Sunglimmer Cloak
+
+-- Reply-Code Alpha N10
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46052 LIMIT 1) AS haxxorz), `parent_item_id` = 46052 WHERE `item_id` = 46322 AND `expansion_id` = 3; -- branns-sealing-ring
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46052 LIMIT 1) AS haxxorz), `parent_item_id` = 46052 WHERE `item_id` = 46320 AND `expansion_id` = 3; -- drape-of-the-skyherald
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46052 LIMIT 1) AS haxxorz), `parent_item_id` = 46052 WHERE `item_id` = 46323 AND `expansion_id` = 3; -- starshine-signet
+UPDATE `items` SET `parent_id` = (SELECT * FROM (SELECT `id` FROM `items` WHERE `item_id` = 46052 LIMIT 1) AS haxxorz), `parent_item_id` = 46052 WHERE `item_id` = 46321 AND `expansion_id` = 3; -- sunglimmer-drape

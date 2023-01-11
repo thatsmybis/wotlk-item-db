@@ -3395,3 +3395,39 @@ VALUES
     (316, 54587, "2022-08-25 00:00:00"), -- Split Shape Belt
     (316, 54579, "2022-08-25 00:00:00"), -- Treads of Impending Resurrection
     (316, 54580, "2022-08-25 00:00:00"); -- Umbrage Armbands
+
+-- Missing Ulduar items
+INSERT INTO `item_item_sources` (`item_source_id`, `item_id`, `created_at`)
+VALUES
+    -- Ulduar N10
+    -- Hodir
+    (207, 45651, "2023-01-11 00:00:00"), -- Leggings of the Wayward Protector
+    (207, 45650, "2023-01-11 00:00:00"), -- Leggings of the Wayward Conqueror
+    (207, 45652, "2023-01-11 00:00:00"), -- Leggings of the Wayward Vanquisher
+    (207, 45877, "2023-01-11 00:00:00"), -- The Boreal Guard
+    (207, 45888, "2023-01-11 00:00:00"), -- Bitter Cold Armguards
+    (207, 45454, "2023-01-11 00:00:00"), -- Frost-bound Chain Bracers
+    (207, 45887, "2023-01-11 00:00:00"), -- Ice Layered Barrier
+    (207, 45886, "2023-01-11 00:00:00"), -- Icecore Staff
+    (207, 45876, "2023-01-11 00:00:00"), -- Shiver
+    -- Freya
+    (206, 45644, "2023-01-11 00:00:00"), -- Gloves of the Wayward Conqueror
+    (206, 45645, "2023-01-11 00:00:00"), -- Gloves of the Wayward Protector
+    (206, 45646, "2023-01-11 00:00:00"), -- Gloves of the Wayward Vanquisher
+
+    -- Ulduar N25
+    -- Tokens
+    (214, 45038, "2023-01-11 00:00:00"), -- Fragment of Val'anyr
+    -- Hodir
+    (224, 45632, "2023-01-11 00:00:00"), -- Breastplate of the Wayward Conqueror
+    (224, 45633, "2023-01-11 00:00:00"), -- Breastplate of the Wayward Protector
+    (224, 45634, "2023-01-11 00:00:00"), -- Breastplate of the Wayward Vanquisher
+    (224, 45457, "2023-01-11 00:00:00"), -- Staff of Endless Winter
+    (224, 45459, "2023-01-11 00:00:00"), -- Frigid Strength of Hodir
+    (224, 45460, "2023-01-11 00:00:00"), -- Bindings of Winter Gale
+    (224, 45461, "2023-01-11 00:00:00"), -- Drape of Icy Intent
+    (224, 45462, "2023-01-11 00:00:00"), -- Gloves of the Frozen Glade
+    -- Freya
+    (223, 45654, "2023-01-11 00:00:00"), -- Legplates of the Wayward Protector
+    (223, 45655, "2023-01-11 00:00:00"), -- Legplates of the Wayward Vanquisher
+    (223, 45653, "2023-01-11 00:00:00"); -- Legplates of the Wayward Conqueror
